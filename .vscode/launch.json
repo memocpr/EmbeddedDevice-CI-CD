@@ -6,9 +6,9 @@
             "type": "cortex-debug",
             "request": "launch",
             "servertype": "jlink",
-            "serverpath": "${env:SEGGER_PATH}/JLinkGDBServerCL",
-            //"serialNumber": "801047548", // connection by serial number, or:
-            "ipAddress": "tunnel:801047548", // connection through tunnel, or:
+            "serverpath": "${env:SEGGER_PATH}/JLinkGDBServerCLExe",
+            //"serialNumber": "801048219", // connection by serial number, or:
+            "ipAddress": "tunnel:801048219", // connection through tunnel, or:
             //"ipAddress": "192.168.1.123",
             "cwd": "${workspaceFolder}",
             "executable": "${command:cmake.launchTargetPath}",
