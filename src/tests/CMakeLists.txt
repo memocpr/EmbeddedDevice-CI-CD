@@ -38,7 +38,7 @@ set (failRegex "\\*\\*\\* FAILED \\*\\*\\*")
 set_property(TEST PROPERTY PASS_REGULAR_EXPRESSION "${passRegex}")
 set_property(TEST PROPERTY FAIL_REGULAR_EXPRESSION "${failRegex}")
 
-set (JRUN_CTEST_COMMAND "JRun" --verbose --device RP2040_M0_0 --rtt -if SWD --pc off --sp off --ip "tunnel:801047548")
+set (JRUN_CTEST_COMMAND "JRun" --verbose --device RP2040_M0_0 --rtt -if SWD --pc off --sp off --ip "tunnel:801048219")
 
 add_test(
   NAME Led_1
